@@ -1,0 +1,54 @@
+:root{
+    /* COLORES PRIMARIOS */
+    --color-primary: #FFC404;
+    --color-secondary: #FC5151;
+    --color-tertiry: #FD6E48;
+
+    --color-white: #ffffff;
+    --color-light-white: #F6F6F6;
+
+    /* BACKGROUND TRANSPARENT  */
+    --input-background-white-transparent: rgba(255,255,255,0.1);
+
+    /* COLORES DE TEXTO */
+    --text-color-primary: #0E1838;
+    --text-color-secondary: #ffffff;
+    --text-color-green: #2DD00C;
+
+    --text-color-card-products: #474A4B;
+    
+    /* ENLACES */
+    --link: #003CFF;
+    
+    /* INPUTS COLOR PLACEHOLDER */
+    --placeholder-grey: #99A1AF;
+
+    /* BORDER RADIUS */
+    --border-radius: 6px;
+    --border-radius-full: 50px;
+    --input-border-radius: 0.375rem; /* 6px */
+
+    /* BORDES PARA INPUTS */
+    --input-border-light-grey: #D1D5DC;
+    --input-border-white: #FFFFFF;
+
+    /* TAMAÑO DE FUENTES */
+    --input-font-size: 0.938rem;
+    --font-size-presentation: 1.75rem;
+    --font-size-text: 0.875rem; /* 14px */
+    --font-size-subtitle: 1.125rem;
+    --font-size-link: 0.813rem;
+    --font-size-icon: 1.5rem;
+    --font-size-logo: 1.5rem;
+    --font-menu: 1.5rem;
+    --font-size-input: 15px;
+    --font-size-category: 0.875rem; /* 14px */
+    --font-size-product-price: 25px;
+    --font-size-card-title:1rem;
+
+    /* TEXTO NEGRITA */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+}

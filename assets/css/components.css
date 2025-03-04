@@ -1,0 +1,31 @@
+/* FORMULARIO */
+/* 
+    0.25rem = 4px
+    0.5rem = 8px
+    0.625 = 10px
+    0.75rem = 12px
+    1rem = 16px
+*/
+.control{
+    padding: 8.5px 0.75rem;
+    font-size: var(--font-size-input);
+    border-radius: var(--input-border-radius);
+    line-height: 0rem;
+    outline-width: 1px;
+    outline-style: solid;
+    outline-offset: 0.1px;
+    outline-color: var(--input-border-light-grey);
+
+}
+.control::placeholder{
+    font-size: var(--input-font-size);
+    color: var(--placeholder-grey);
+}
+
+.link{
+    color: var(--link);
+    font-size: var(--font-size-link);
+    font-weight: var(--font-weight-medium);
+    text-decoration: none;
+    line-height: 0.625rem;
+}

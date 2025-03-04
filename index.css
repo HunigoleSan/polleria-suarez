@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+img,input,button,a,span{
+    display: block;
+}
+a{
+    text-decoration: none;
+
+}
+
+input,button{
+    border: 0;
+    outline: none;
+    font-family: inherit;
+}
+
+input::-webkit-input-placeholder { font-size: var(--font-size-input); }
+input::-moz-placeholder { font-size: var(--font-size-input); }
+input:-ms-input-placeholder { font-size: var(--font-size-input); }
+input::placeholder { font-size: var(--font-size-input); }
+
+
+
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
