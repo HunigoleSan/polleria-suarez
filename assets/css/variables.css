@@ -7,15 +7,23 @@
     --color-white: #ffffff;
     --color-light-white: #F6F6F6;
 
+    --color-blue: #3060FF;
+
+    --color-yellow: #FFD85E;
+    --color-green: #2DD00C;
+    --color-red: #FC5151;
+
     /* BACKGROUND TRANSPARENT  */
     --input-background-white-transparent: rgba(255,255,255,0.1);
 
     /* COLORES DE TEXTO */
     --text-color-primary: #0E1838;
+    --text-color-grey: #686C79;
     --text-color-secondary: #ffffff;
     --text-color-green: #2DD00C;
 
     --text-color-card-products: #474A4B;
+
     
     /* ENLACES */
     --link: #003CFF;
@@ -32,6 +40,7 @@
     --input-border-light-grey: #D1D5DC;
     --input-border-white: #FFFFFF;
 
+    --border-color-light-grey: #EFEFEF;
     /* TAMAÑO DE FUENTES */
     --input-font-size: 0.938rem;
     --font-size-presentation: 1.75rem;
@@ -46,9 +55,14 @@
     --font-size-product-price: 25px;
     --font-size-card-title:1rem;
 
+    --font-size-dashboard-card-price: 35px;
+    
+    --font-dashboard-user-perfil:  1.5rem;
+
     /* TEXTO NEGRITA */
     --font-weight-regular: 400;
     --font-weight-medium: 500;
     --font-weight-semi-bold: 600;
     --font-weight-bold: 700;
+    --font-weight-extra-bold: 800
 }

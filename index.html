@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/components.css">
     <link rel="stylesheet" href="assets/css/vector.css">
     <link rel="stylesheet" href="assets/css/products.css">
+    <link rel="stylesheet" href="assets/css/dashboard.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Document</title>
 </head>
@@ -26,7 +27,6 @@
             <img class="vector-arrow" src="assets/img/login/vector-arrow.png" alt="">
             <img class="vector-polleria" src="assets/img/login/vector-polleria.png" alt="">
             <img class="vector-suarez" src="assets/img/login/vector-suarez.png" alt="">
-            
         </div>
     </div>
     <h1 class="login__title">SISTEMA DE GESTIÓN DE PEDIDOS,<br>CONTABILIDAD E INVENTARIADO</h1>
@@ -41,50 +41,46 @@
     </form>
     <div id="productos" class="pro_">
         <section class="container__products">
-            <img class="vector-ondas" src="assets/img/productos/ondas.png" alt="">
-            <img class="vector-shadow-ondas" src="assets/img/productos/shadow-ondas.png" alt="">
-            <section class="productos__page">
-                <header class="header">
-                    <nav class="nav">
-                        <h1 class="logo">
-                            <a class="logo__link" href="">
-                                <i class='bx bxs-cube'></i>
-                                SUAREZ
-                            </a>
-                        </h1>
-                        <div class="nav_mobile">
-                            <div>
-                                <i class='bx bx-basket color-inherit'></i>
-                            </div>
-                            <div>
-                                <i class='bx bx-menu-alt-right'></i>
-                            </div>
+            <div id="container-vector-ondas" class="container-ondas">
+                <img class="vector-ondas" src="assets/img/productos/ondas.png" alt="">
+                <img class="vector-shadow-ondas" src="assets/img/productos/ondas.png" alt="">
+            </div>
+            <header class="header">
+                <nav class="nav">
+                    <h1 class="logo">
+                        <a class="logo__link" href=""><i class='bx bxs-cube'></i>SUAREZ</a>
+                    </h1>
+                    <div class="nav_mobile">
+                        <div><i class='bx bx-basket color-inherit'></i></div>
+                        <div id="menu" class="menu"><i class='bx bx-menu-alt-right'></i></div>
+                    </div>
+                    <div class="container-links">
+                        <ul class="list">
+                            <li>
+                                <a id="inicio-link" class="link link-menu" href="#">Inicio</a>
+                            </li>
+                            <li>
+                                <a id="dashboard-link" class="link link-menu" href="#">Dashboard</a>
+                            </li>
+                            <!-- <li>
+                                <a class="link link-menu" href="#">Administración</a>
+                            </li>
+                            <li>
+                                <a class="link link-menu" href="#">Inventario</a>
+                            </li>
+                            <li>
+                                <a class="link link-menu" href="#">Ganancias</a>
+                            </li> -->
+                        </ul>
+                        <div class="icons">
+                            <i class='bx bxs-basket color-inherit' ></i>
+                            <i class='bx bx-search color-inherit'></i>
                         </div>
-                        <div class="container-links">
-                            <ul class="list">
-                                <li>
-                                    <a class="link link-menu" href="">Inicio</a>
-                                </li>
-                                <li>
-                                    <a class="link link-menu" href="">Dashboard</a>
-                                </li>
-                                <li>
-                                    <a class="link link-menu" href="">Administración</a>
-                                </li>
-                                <li>
-                                    <a class="link link-menu" href="">Inventario</a>
-                                </li>
-                                <li>
-                                    <a class="link link-menu" href="">Ganancias</a>
-                                </li>
-                            </ul>
-                            <div class="icons">
-                                <i class='bx bxs-basket color-inherit' ></i>
-                                <i class='bx bx-search color-inherit'></i>
-                            </div>
-                        </div>
-                    </nav>
-                </header>
+                    </div>
+                </nav>
+            </header>
+            <section id="productos__page" class="productos__page">
+                
                 <form action="">
                     <div class="input-group">
                         <i class='bx bx-search'></i>
@@ -185,8 +181,145 @@
             </section>
         </section>
     </div>
-
+    <div id="dashboard" class="dash_">
+        <section class="container__dashboards">
+            <div id="container-vector-ondas-dashboard" class="container-ondas-dashboard">
+                <img class="vector-ondas" src="assets/img/productos/ondas.png" alt="">
+                <img class="vector-shadow-ondas" src="assets/img/productos/ondas.png" alt="">
+            </div>
+            <section class="dashboard__page">
+                <header class="header dashboard-header">
+                    <ul class="dashboard-container-links">
+                        <li><a href="">Inicio</a></li>
+                        <li><i class='bx bx-search'></i></li>
+                    </ul>
+                </header>
+                <div class="user_perfil">
+                    <div class="user_welcome">
+                        <p class="welcome">¡Bievenido!</p>
+                        <p class="user_name">Hugo Sanchez</p>
+                    </div>
+                    <img class="user_img" src="assets/img/dashboard/perfil_men.png" alt="">
+                </div>
+                <div class="dashboard__data">
+                    <div class="dashboard__cards">
+                        <div class="dashboard-card ganancia-neta">
+                            <div>
+                                <h4 class="ganancia-title">Ganancia Neta</h4>
+                                <p class="dashboard-card-price">S/180355.50</p>
+                            </div>
+                            <img class="dashboard-card-onda" src="assets/img/dashboard/card_line.png" alt="">
+                            <span class="dashboard_logo">
+                                Suarez 
+                                <span class="line"></span>
+                            </span>
+                        </div>
+                        <div class="dashboard-card ganancia-diaria">
+                            <div>
+                                <h4 class="ganancia-title">Ganancias del día</h4>
+                                <p class="dashboard-card-price dashboard-card-price--diario">S/180355.50</p>
+                            </div>
+                            <img class="dashboard-card-onda dashboard-card-onda--diario" src="assets/img/dashboard/card_vector-onda.png" alt="">
+                            <img class="dashboard-card-onda dashboard-card-onda--diario shadow-dashboard-card-onda--diario" src="assets/img/dashboard/card_vector-onda.png" alt="">
+                            <span class="dashboard_logo">
+                                Meta diaria S/5600
+                                <div class="dashboard_logo-porcentaje">
+                                    70%
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="dashboard__stock">
+                        <h2 class="dashboard__stock__title">Stock de productos</h2>
+                        <div class="">
+                            <h3>Ingredientes Principales</h3>
+                            <div class="container__stock">
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/chicken.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/papa.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-yellow"></span>
+                                    <img src="assets/img/dashboard/zanahoria.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/aceite.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-red"></span>
+                                    <img src="assets/img/dashboard/lechuga.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h3>Bebidas</h3>
+                            <div class="container__stock bebidas">
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <span class="product__stock-name">Inca Kola</span>
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <span class="product__stock-name">Coca cola</span>
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-yellow"></span>
+                                    <span class="product__stock-name">Chicha</span>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="">
+                            <h3>Ingredientes Principales</h3>
+                            <div class="container__stock">
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/chicken.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/papa.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-yellow"></span>
+                                    <img src="assets/img/dashboard/zanahoria.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-green"></span>
+                                    <img src="assets/img/dashboard/aceite.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-red"></span>
+                                    <img src="assets/img/dashboard/lechuga.png" alt="">
+                                </div>
+                                <div class="product__stock">
+                                    <span class="point__stock point__stock-red"></span>
+                                    <img src="assets/img/dashboard/lechuga.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+        <div class="dashboard-nav">
+            <ul class="dashboard-nav-list">
+                <li><a class="dashboard-icon-nav " href="#"><i class='bx bx-restaurant'></i></a></li>
+                <li><a class="dashboard-icon-nav dashboard-nav-active" href="#"><i class='bx bx-home'></i></a></li>
+                <li><a class="dashboard-icon-nav " href="#"><i class='bx bx-chart' ></i></a></li>
+                <li><a class="dashboard-icon-nav dashboard-nav-add" href="#"><i class='bx bx-plus' ></i></a></li>
+            </ul>
+        </div>
+    </div>
     <script src="js/login.js" type="module"></script>
+    <script src="js/navbar.js" type="module"></script>
+    <script src="js/dashboard.js" type="module"></script>
 </body>
 
 </html>

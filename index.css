@@ -17,6 +17,9 @@ input,button{
     outline: none;
     font-family: inherit;
 }
+ul{
+    list-style: none;
+}
 
 input::-webkit-input-placeholder { font-size: var(--font-size-input); }
 input::-moz-placeholder { font-size: var(--font-size-input); }
