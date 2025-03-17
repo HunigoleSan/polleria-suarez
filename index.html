@@ -16,30 +16,34 @@
 </head>
 
 <body>
-    <img class="vector-yellow-desktop" src="assets/img/login/vector-yellow-desktop.png" alt="">
-    <img class="vector-mesa" src="assets/img/login/mesa.png" alt="">
-    <img class="vector-pattern" src="assets/img/login/pattern-chicken.png" alt="">
-
-    <div class="vector-man">
-        <div class="relative">
-            <img class="man-img" src="assets/img/login/man.png" alt="">
-            <img class="shadow-man-img" src="assets/img/login/shadow-man.png" alt="">
-            <img class="vector-arrow" src="assets/img/login/vector-arrow.png" alt="">
-            <img class="vector-polleria" src="assets/img/login/vector-polleria.png" alt="">
-            <img class="vector-suarez" src="assets/img/login/vector-suarez.png" alt="">
-        </div>
+    <div class="desktop">
+        Disponible solo en móviles. Versión de escritorio en camino.
     </div>
-    <h1 class="login__title">SISTEMA DE GESTIÓN DE PEDIDOS,<br>CONTABILIDAD E INVENTARIADO</h1>
-    <form id="login" class="login" method="post">
-        <div class="container__titles">
-            <h3 class="subtitulo text-center">LISTOS PARA BRILLAR</h3>
-            <p class="parrafo text-center">Tu equipo te espera, accede ahora.</p>
+    <div class="login_container">
+        <img class="vector-yellow-desktop" src="assets/img/login/vector-yellow-desktop.png" alt="">
+        <img class="vector-mesa" src="assets/img/login/mesa.png" alt="">
+        <img class="vector-pattern" src="assets/img/login/pattern-chicken.png" alt="">
+        <div class="vector-man">
+            <div class="relative">
+                <img class="man-img" src="assets/img/login/man.png" alt="">
+                <img class="shadow-man-img" src="assets/img/login/shadow-man.png" alt="">
+                <img class="vector-arrow" src="assets/img/login/vector-arrow.png" alt="">
+                <img class="vector-polleria" src="assets/img/login/vector-polleria.png" alt="">
+                <img class="vector-suarez" src="assets/img/login/vector-suarez.png" alt="">
+            </div>
         </div>
-        <div class="vector-logo">
-            <p><span>SUA</span> <span>REZ</span></p>
-        </div>
-    </form>
-    <div id="productos" class="pro_">
+        <h1 class="login__title">SISTEMA DE GESTIÓN DE PEDIDOS,<br>CONTABILIDAD E INVENTARIADO</h1>
+        <form id="login" class="login" method="post">
+            <div class="container__titles">
+                <h3 class="subtitulo text-center">LISTOS PARA BRILLAR</h3>
+                <p class="parrafo text-center">Tu equipo te espera, accede ahora.</p>
+            </div>
+            <div class="vector-logo">
+                <p><span>SUA</span> <span>REZ</span></p>
+            </div>
+        </form>
+    </div>
+    <div id="productos" class="pro_ pro_show">
         <section class="container__products">
             <div id="container-vector-ondas" class="container-ondas">
                 <img class="vector-ondas" src="assets/img/productos/ondas.png" alt="">
@@ -62,15 +66,6 @@
                             <li>
                                 <a id="dashboard-link" class="link link-menu" href="#">Dashboard</a>
                             </li>
-                            <!-- <li>
-                                <a class="link link-menu" href="#">Administración</a>
-                            </li>
-                            <li>
-                                <a class="link link-menu" href="#">Inventario</a>
-                            </li>
-                            <li>
-                                <a class="link link-menu" href="#">Ganancias</a>
-                            </li> -->
                         </ul>
                         <div class="icons">
                             <i class='bx bxs-basket color-inherit' ></i>
@@ -80,7 +75,6 @@
                 </nav>
             </header>
             <section id="productos__page" class="productos__page">
-                
                 <form action="">
                     <div class="input-group">
                         <i class='bx bx-search'></i>
@@ -177,8 +171,64 @@
                             <i class='bx bxs-plus-circle'></i>
                         </div>
                     </article>
+                    <article class="card">
+                        <div class="relative">
+                            <img class="img-product" src="assets/img/productos/producto1.png" alt="">
+                            <img class="shadow-producto1" src="assets/img/productos/shadow-producto1.png" alt="">
+                        </div>
+                        <p class="card__title">Pollo a la Brasa Clásico</p>
+                        <div class="container__price">
+                            <span class="card__price">$12.99</span>
+                            <i class='bx bxs-plus-circle'></i>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="relative">
+                            <img class="img-product" src="assets/img/productos/producto1.png" alt="">
+                            <img class="shadow-producto1" src="assets/img/productos/shadow-producto1.png" alt="">
+                        </div>
+                        <p class="card__title">Pollo a la Brasa Clásico</p>
+                        <div class="container__price">
+                            <span class="card__price">$12.99</span>
+                            <i class='bx bxs-plus-circle'></i>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="relative">
+                            <img class="img-product" src="assets/img/productos/producto1.png" alt="">
+                            <img class="shadow-producto1" src="assets/img/productos/shadow-producto1.png" alt="">
+                        </div>
+                        <p class="card__title">Pollo a la Brasa Clásico</p>
+                        <div class="container__price">
+                            <span class="card__price">$12.99</span>
+                            <i class='bx bxs-plus-circle'></i>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="relative">
+                            <img class="img-product" src="assets/img/productos/producto1.png" alt="">
+                            <img class="shadow-producto1" src="assets/img/productos/shadow-producto1.png" alt="">
+                        </div>
+                        <p class="card__title">Pollo a la Brasa Clásico</p>
+                        <div class="container__price">
+                            <span class="card__price">$12.99</span>
+                            <i class='bx bxs-plus-circle'></i>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="relative">
+                            <img class="img-product" src="assets/img/productos/producto1.png" alt="">
+                            <img class="shadow-producto1" src="assets/img/productos/shadow-producto1.png" alt="">
+                        </div>
+                        <p class="card__title">Pollo a la Brasa Clásico</p>
+                        <div class="container__price">
+                            <span class="card__price">$12.99</span>
+                            <i class='bx bxs-plus-circle'></i>
+                        </div>
+                    </article>
                 </div>
             </section>
+            
         </section>
     </div>
     <div id="dashboard" class="dash_">
@@ -306,20 +356,223 @@
                     </div>
                 </div>
             </section>
-            
+            <section class="gestion__pedidos">
+                <div id="container-vector-ondas-dashboard" class="container-ondas-dashboard">
+                    <img class="vector-ondas" src="assets/img/productos/ondas.png" alt="">
+                    <img class="vector-shadow-ondas" src="assets/img/productos/ondas.png" alt="">
+                </div>
+                <section class="pedidos__header">
+                    <i class='bx bx-arrow-back back_navbar gestion__pedidos_back' ></i>
+                    <h3 class="pedidos__header_title">Gestión de Pedidos</h3>
+                    <i class='bx bx-search' ></i>
+                </section>
+                <section class="content_pedidos">
+                    <section class="content_pedidos__header">
+                        <h4>Filtros</h4>
+                        <i class='bx bx-info-circle'></i>
+                    </section>
+                    <sectio class="filters">
+                        <ul class="filters__list">
+                            <li><i class='bx bx-refresh' ></i></li>
+                            <li><i class='bx bx-calendar' ></i></li>
+                            <li><i class='bx bx-alarm-exclamation' ></i></li>
+                        </ul>
+                        <a class="btn radius-full width-max-content btn-gradient-primary" href="#">Reporte</a>
+                    </sectio>
+                    <section class="content_pedidos__table">
+                        <div class="content_pedidos__header content_pedidos__header--size">
+                            <h4>Pedidos</h4>
+                        </div>
+                        <div class="table__content">
+                            <div class="table__row">
+                                <div class="table__data">
+                                    <div class="product__content">
+                                        <div class="product__content-img">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                        </div>
+                                        <div class="product__content-information">
+                                            <p class="product__content-name">Pollo a la brasa clásico</p>
+                                            <p class="product__content-date">M 2 - 22/02/25 - 12:35 PM</p>
+                                        </div>
+                                        <div class="status status-yellow">
+
+                                        </div>
+                                    </div>
+                                    <div class="table__more_actions">
+                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                    </div>
+                                </div>
+                                <div class="more_data pl-20">
+                                    <div class="linear-gradient pl-12 pt-12 pb-12">
+                                        <div class="more_data_info_description d-flex-direction-column g1">
+                                            <div class="more_data_product">
+                                                <p class="more_data_product_price">S/45.00</p>
+                                                <span class="status-description status-decription-yellow">En espera</span>
+                                            </div>
+                                            <p class="more_data_product_name">
+                                                Pollo ala Brasa Clásico
+                                            </p>
+                                            <div class="d-flex">
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-user' ></i>
+                                                    <p class="more_date_names">José</p>
+                                                </div>
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-basket' ></i>
+                                                    <p class="more_date_names">Local</p>
+                                                </div>
+                                            </div>
+                                            <div class="more_data_employed">
+                                                <div class="more_data_content_img more_data_content_img-yellow">
+                                                    <img class="more_data_employed_img " width="35px" height="35px" src="assets/img/dashboard/perfil-men-pedidos.png" alt="">
+                                                </div>
+                                                <p class="more_data_employed_name">Hugo Sanchez</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__data">
+                                    <div class="product__content">
+                                        <div class="product__content-img">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                        </div>
+                                        <div class="product__content-information">
+                                            <p class="product__content-name">Pollo a la brasa clásico</p>
+                                            <p class="product__content-date">M 2 - 22/02/25 - 12:35 PM</p>
+                                        </div>
+                                        <div class="status status-green">
+                                        </div>
+                                    </div>
+                                    <div class="table__more_actions">
+                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                    </div>
+                                </div>
+                                <div class="more_data pl-20">
+                                    <div class="linear-gradient pl-12 pt-12 pb-12">
+                                        <div class="more_data_info_description d-flex-direction-column g1">
+                                            <div class="more_data_product">
+                                                <p class="more_data_product_price">S/45.00</p>
+                                                <span class="status-description status-decription-yellow">En espera</span>
+                                            </div>
+                                            <p class="more_data_product_name">
+                                                Pollo ala Brasa Clásico
+                                            </p>
+                                            <div class="d-flex">
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-user' ></i>
+                                                    <p class="more_date_names">José</p>
+                                                </div>
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-basket' ></i>
+                                                    <p class="more_date_names">Local</p>
+                                                </div>
+                                            </div>
+                                            <div class="more_data_employed">
+                                                <div class="more_data_content_img more_data_content_img-green">
+                                                    <img class="more_data_employed_img " width="35px" height="35px" src="assets/img/dashboard/perfil-men-pedidos.png" alt="">
+                                                </div>
+                                                <p class="more_data_employed_name">Hugo Sanchez</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table__row">
+                                <div class="table__data">
+                                    <div class="product__content">
+                                        <div class="product__content-img">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                            <img class="" src="assets/img/dashboard/pollo.png" alt="pollo">
+                                        </div>
+                                        <div class="product__content-information">
+                                            <p class="product__content-name">Pollo a la brasa clásico</p>
+                                            <p class="product__content-date">M 2 - 22/02/25 - 12:35 PM</p>
+                                        </div>
+                                        <div class="status status-blue">
+
+                                        </div>
+                                    </div>
+                                    <div class="table__more_actions">
+                                        <i class='bx bx-dots-horizontal-rounded' ></i>
+                                    </div>
+                                </div>
+                                <div class="more_data pl-20">
+                                    <div class="linear-gradient pl-12 pt-12 pb-12">
+                                        <div class="more_data_info_description d-flex-direction-column g1">
+                                            <div class="more_data_product">
+                                                <p class="more_data_product_price">S/45.00</p>
+                                                <span class="status-description status-decription-yellow">En espera</span>
+                                            </div>
+                                            <p class="more_data_product_name">
+                                                Pollo ala Brasa Clásico
+                                            </p>
+                                            <div class="d-flex">
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-user' ></i>
+                                                    <p class="more_date_names">José</p>
+                                                </div>
+                                                <div class="more_data_client">
+                                                    <i class='bx bx-basket' ></i>
+                                                    <p class="more_date_names">Local</p>
+                                                </div>
+                                            </div>
+                                            <div class="more_data_employed">
+                                                <div class="more_data_content_img more_data_content_img-blue">
+                                                    <img class="more_data_employed_img " width="35px" height="35px" src="assets/img/dashboard/perfil-men-pedidos.png" alt="">
+                                                </div>
+                                                <p class="more_data_employed_name">Hugo Sanchez</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__filters">
+                            <p class="table__filters__result"><b>100</b> de <b>1000</b></p>
+                            <div class="table__filters__actions">
+                                <div class="table__filter__chevron-left">
+                                    <i class='bx bx-chevron-left' ></i>
+                                </div>
+                                <div class="table__filter__number">
+                                    1
+                                </div>
+                                <div class="table__filter__number table__filter__active">
+                                    2
+                                </div>
+                                <div class="table__filter__number">
+                                    ...
+                                </div>
+                                <div class="table__filter__number">
+                                    10
+                                </div>
+                                <div class="table__filter__chevron-right">
+                                    <i class='bx bx-chevron-right' ></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </section>
         </section>
         <div class="dashboard-nav">
             <ul class="dashboard-nav-list">
-                <li><a class="dashboard-icon-nav " href="#"><i class='bx bx-restaurant'></i></a></li>
-                <li><a class="dashboard-icon-nav dashboard-nav-active" href="#"><i class='bx bx-home'></i></a></li>
-                <li><a class="dashboard-icon-nav " href="#"><i class='bx bx-chart' ></i></a></li>
-                <li><a class="dashboard-icon-nav dashboard-nav-add" href="#"><i class='bx bx-plus' ></i></a></li>
+                <li><a class="gestion_pedidos_ dashboard-icon-nav " href="#"><i class='bx bx-restaurant'></i></a></li>
+                <li><a class="inicio_ dashboard-icon-nav dashboard-nav-active" href="#"><i class='bx bx-home'></i></a></li>
+                <li><a class="contabilidad_ dashboard-icon-nav " href="#"><i class='bx bx-chart' ></i></a></li>
+                <li><a class="crear_pedidos_ dashboard-icon-nav dashboard-nav-add" href="#"><i class='bx bx-plus' ></i></a></li>
             </ul>
         </div>
     </div>
     <script src="js/login.js" type="module"></script>
     <script src="js/navbar.js" type="module"></script>
     <script src="js/dashboard.js" type="module"></script>
+    <script src="js/show-order-details.js" type="module"></script>
+    <script src="js/navbar_dashboard.js" type="module"></script>
+    <script src="js/back_navbar.js" type="module"></script>
 </body>
 
 </html>
